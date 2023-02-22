@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SALUDAR</title>
 </head>
-<body>
-    <h1>HOLA</h1>
+<body>   
+  <form id="Saludador-form">
+    <label for="Nombre">tu nombre:</label>
+    <input type="text" id="Nombre" />
+    <input type="submit" value="Saludar" id="saludar-button" />
+</form>
+  <div id="Saludador-div"></div>
+  <script type="module" src="./src/presenter-Saludador.js"></script>
+
+  <form id="saludadorPorGenero-form">
+    <label for="genero">tu genero:</label>
+    <input type="text" id="genero" />
+    <input type="submit" value="Saludar" id="saludar-button" />
+</form>
+  <div id="saludador-div"></div>
+  <script type="module" src="./src/presenter-Saludador.js"></script>
+      
+
+  <form id="saludadorPorGeneroEdad-form">
+    <label for="genero">tu edad:</label>
+    <input type="text" id="edad" />
+    <input type="submit" value="Saludar" id="saludar-button" />
+</form>
+  <div id="saludadorGeneroEdad-div"></div>
+  <script type="module" src="./src/presenter-Saludador.js"></script>
 </body>
 </html>
-<div>hola</div>
